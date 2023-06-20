@@ -1,5 +1,5 @@
 # Python Data Quality Checker
-Python script to setup a SQLite database, populate it with randomly generated car data and check the data quality. It also includes a simple GUI for interaction.
+Python script to read a SQL database and check the data quality. It also includes a simple GUI for interaction.
 
 ![image](https://github.com/blacksheepaway/Data-Parser/assets/50200471/1c6f19c3-3b91-40c2-b390-118d6ec84e87)
 
@@ -8,7 +8,7 @@ Python script to setup a SQLite database, populate it with randomly generated ca
 
 This project consists of three main Python scripts:
 
-1. `setup_db.py`: sets up a SQLite database and populates it with randomly generated car data.
+1. `setup_db.py`: sets up a SQLite database and populates it with randomly generated car data for example purposes.
 2. `data_quality_checker.py`: extracts data from the SQLite database and checks its quality, outputting any issues found.
 3. `data_quality_checker_gui.py`: provides a simple graphical user interface to run the database setup and data quality check functions.
 
